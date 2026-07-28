@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Balanju Solutions & Bubu Fruit Rush</title>
+  <meta name="description" content="Learn about Balanju Solutions, the creators of Bubu Fruit Rush. Our mission, values, and dedication to delivering smooth 2D arcade games for all players.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 3rem 2.5rem;
+      background: radial-gradient(ellipse at top, rgba(25, 60, 36, 0.95) 0%, rgba(10, 30, 18, 0.98) 100%);
+      border: 3px solid var(--wood-gold);
+      border-radius: 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+      line-height: 1.75;
+    }
+    .page-header {
+      text-align: center;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+      padding-bottom: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .page-header h1 {
+      font-family: var(--font-heading);
+      font-size: 2.8rem;
+      color: var(--accent-yellow);
+      margin-bottom: 0.5rem;
+      text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+    .page-subtitle {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+    }
+    .about-section {
+      margin-bottom: 2.5rem;
+    }
+    .about-section h2 {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      color: #81c784;
+      margin-bottom: 1rem;
+      border-left: 5px solid var(--accent-yellow);
+      padding-left: 12px;
+    }
+    .about-section p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-bottom: 1.2rem;
+    }
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .value-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 20px;
+      padding: 1.8rem;
+      text-align: center;
+    }
+    .value-icon {
+      font-size: 3rem;
+      margin-bottom: 0.8rem;
+    }
+    .value-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.3rem;
+      color: var(--accent-yellow);
+      margin-bottom: 0.5rem;
+    }
+    .value-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+    .contact-box {
+      background: rgba(0, 0, 0, 0.35);
+      border: 2px solid var(--wood-gold);
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .contact-box h3 {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      color: var(--accent-yellow);
+      margin-bottom: 0.5rem;
+    }
+    .btn-back-home {
+      display: inline-block;
+      margin-top: 2rem;
+      background: linear-gradient(180deg, #4caf50 0%, #2e7d32 100%);
+      border: 2px solid #81c784;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      font-weight: 700;
+      transition: transform 0.2s;
+    }
+    .btn-back-home:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo-group" onclick="location.href='index.html'">
+        <img src="logo.png" alt="Bubu Fruit Rush Logo" class="nav-logo">
+        <span class="brand-title">BUBU <span>FRUIT RUSH</span></span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-btn">Home 🏠</a>
+        <a href="about.html" class="nav-btn active">About Us 🏢</a>
+        <a href="privacy.html" class="nav-btn">Privacy 🔒</a>
+        <a href="terms.html" class="nav-btn">Terms 📜</a>
+      </nav>
+      <div class="header-actions">
+        <a href="index.html#download" class="btn-play-header">DOWNLOAD APK 📲</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-container">
+    <div class="page-header">
+      <h1>🏢 About Balanju Solutions</h1>
+      <p class="page-subtitle">Crafting Fun, Smooth & Family-Friendly Mobile Games</p>
+    </div>
+
+    <div class="about-section">
+      <h2>Who We Are</h2>
+      <p>
+        <strong>Balanju Solutions</strong> is an independent game development studio dedicated to creating high-performance, vibrant, and engaging mobile arcade experiences. Our goal is to bring classic arcade joy into modern mobile devices with 60 FPS smooth physics, polished UI design, and wholesome gameplay for players of all ages.
+      </p>
+    </div>
+
+    <div class="about-section">
+      <h2>The Story of Bubu Fruit Rush</h2>
+      <p>
+        <strong>Bubu Fruit Rush</strong> was born out of a passion for classic reflex arcade games! We wanted to create a character that players fall in love with—enter <em>Bubu the cute Panda</em>. Combined with 30 handcrafted campaign levels, dynamic fruit combo multipliers, power-ups like Magnet & Time Freeze, and zero intrusive pay-to-win barriers, Bubu Fruit Rush delivers endless fun right at your fingertips.
+      </p>
+    </div>
+
+    <!-- Core Values -->
+    <div class="about-section">
+      <h2>Our Core Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">❤️</div>
+          <h3>Family First</h3>
+          <p>Non-violent, wholesome 2D gameplay designed safely for kids, teenagers, and families worldwide.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">⚡</div>
+          <h3>60 FPS Performance</h3>
+          <p>Optimized physics engine ensuring silky-smooth touch controls on all Android smartphones.</p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">🔒</div>
+          <h3>Data Privacy</h3>
+          <p>No registration, no personal data harvesting. Your scores stay 100% private on your device.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Official Contact Box -->
+    <div class="contact-box">
+      <h3>📩 Get In Touch</h3>
+      <p>Have feedback, bug reports, or partnership inquiries? We'd love to hear from you!</p>
+      <p style="margin-top: 10px;"><strong>Official Support Email:</strong> <a href="mailto:support@bubufruitrush.com" style="color:var(--accent-yellow); font-weight:700;">support@bubufruitrush.com</a></p>
+      <p><strong>Developer:</strong> Balanju Solutions</p>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="index.html" class="btn-back-home">← Return to Bubu Fruit Rush Homepage</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 <strong>Balanju Solutions</strong> • Bubu Fruit Rush. All Rights Reserved. 🐼🍎</p>
+      <p><a href="about.html">About Us</a> • <a href="privacy.html">Privacy Policy</a> • <a href="terms.html">Terms of Service</a></p>
+    </div>
+  </footer>
+</body>
+</html>
